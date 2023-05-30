@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>TodoList</title>
+        <script src="./todosex.js" defer></script>
+        <!-- js파일만 받고 실행x 순서가 보장 됌 -->
+    </head>
+    <body>
+        <div class="todolist">
+            <div class="container">
+                <div class="tit">To Do List</div>
+                <div class="add--wrap">
+                    <form class="add-list">
+                        <input type="text" placeholder="add list" />
+                        <button type="submit">ADD</button>
+                    </form>
+                </div>
+                <!-- 1. form tag 이용 -->
+                <!-- 2. input과 button에 이벤트 등록 -->
+                <ul class="list--wrap">
+                    <li class="list">
+                        <input type="checkbox" class="dot" />
+                        <div class="txt">to do list</div>
+                        <div class="trashs"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
