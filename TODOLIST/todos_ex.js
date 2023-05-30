@@ -33,7 +33,6 @@ const render = (todoList) => {
     todoListEl.innerHTML = "";
 
     todoList.forEach((todo) => {
-        // checkboxEl. =
         const itemEl = document.createElement("li"); // <li>
         itemEl.className = "list";
         const checkboxEl = document.createElement("input");
