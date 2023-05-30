@@ -57,3 +57,6 @@ button {
     height: 15px;
     margin: 0 15px;
 }
+.dot:checked + .txt {
+    text-decoration: line-through;
+}
